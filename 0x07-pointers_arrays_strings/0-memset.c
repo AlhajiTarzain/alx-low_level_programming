@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset 
+ * _memset - zain
  * @s: pointer to char params
  * @b: data to change
  * @n: index
