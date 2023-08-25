@@ -6,12 +6,12 @@
  * Return: Int.
  **/
 
-size_t list_len(const list_t *i)
+size_t list_len(const list_t *h)
 {
 	const list_t *pointer;
 	unsigned int check = 0;
 
-	pointer = i;
+	pointer = h;
 	while (pointer)
 	{
 		check++;
