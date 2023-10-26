@@ -2,7 +2,7 @@
 
 /**
  * get_bit - value of anumber at place
- * @n: decimal number
+ * @n: decimal number for verificate
  * @index: index
  * Return: value at place
  */
