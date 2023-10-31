@@ -5,11 +5,13 @@
  * @letters:amount of characters to print
  * Return: the number of letters printed, or 0 if it failed
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
 	int alpha, beta;
 	char *buff;
+
 	if (!filename)
 		return (0);
 	file = open(filename, O_RDONLY);

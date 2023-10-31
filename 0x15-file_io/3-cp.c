@@ -2,9 +2,8 @@
 
 /**
  * main - replicates contents of a file into another
- * @instructions: arguments passed 
- * @contents: array that contains the arguments
- *
+ * @instructions: arguments passed
+ * @contents: array that contains the argument
  * Return: always 0 (success)
  */
 int main(int instructions, char *contents[])
